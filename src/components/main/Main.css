@@ -68,7 +68,6 @@
     }
 }
 
-/* Estilos para tablets pequeñas */
 @media (min-width: 576px) {
     .hero-image-container{
         width: 70%;
@@ -81,7 +80,6 @@
     }
 }
 
-/* Estilos para tablets grandes o laptops pequeñas */
 @media (min-width: 768px) {
     .hero{
         justify-content: center;
@@ -110,25 +108,25 @@
     }
 
     .hero-image {
-        width: 40%; /* Imagen ocupa menos ancho */
+        width: 40%;
     }
 
     .hero-image-container {
         width: 90%;
-        height: 500px; /* Imagen más grande */
+        height: 500px;
     }
 }
 
 @media (min-width: 1200px) {
     .hero-info .info h1 {
-        font-size: 4rem; /* Texto más grande */
+        font-size: 4rem;
     }
 
     .hero-info .info .btn-adopta {
-        font-size: 2rem; /* Tamaño del botón más grande */
+        font-size: 2rem;
     }
 
     .hero-image-container {
-        height: 600px; /* Imagen más grande */
+        height: 600px;
     }
 }
