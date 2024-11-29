@@ -1,0 +1,72 @@
+.section-info{
+    margin-top:70px;
+}
+
+.section-info-cards{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 30px 15px;
+}
+
+.info-card{
+    margin-bottom: 20px;
+    border: 2px solid #bebebe;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}   
+
+.info-card img{
+    width: 65px;
+    position:absolute;
+    top:-15px;
+    right: -15px;
+}
+
+.section-info-right{
+    padding: 30px 15px;
+}
+
+.section-info-right p{
+    text-align: center;
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .section-info{
+        margin-top:0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-info-cards{
+        max-width: 50%;
+        margin: auto 0;
+    }
+
+    .info-card{
+        max-width: 45%;
+    }
+
+    .section-info-right{
+        max-width: 50%;
+        margin-left:50px;
+    }
+
+    .section-info-right h2{
+        font-size: 2.7rem;
+    }
+    
+    .section-info-right p{
+        margin-top: 30px;
+        text-align: end;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
