@@ -1,0 +1,11 @@
+.info-location{
+    margin-top: 15px;
+}
+
+.info-location-iframe{
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border-radius: 30px;
+
+}

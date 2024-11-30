@@ -1,5 +1,12 @@
+:root{
+    --primary-color: #1a6da9;
+    --secondary-color: #f8f0eb;
+    --terciary-color: #006c9d;
+}
+
 html{
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 *, *:before, *:after {
@@ -13,6 +20,10 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     color: #1a6da9;
+}
+
+h2{
+    font-size: 2.7rem;
 }
 
 .navbar .dropdown-toggle::after {

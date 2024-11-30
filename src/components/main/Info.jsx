@@ -38,7 +38,7 @@ const Info = () => {
       </article>
 
       <article className="section-info-right d-flex flex-column align-items-end justify-content-center">
-          <h2>Somos distintos.</h2>
+          <h2 className='align-self-center align-self-lg-end'>Somos distintos.</h2>
           <p> 
             Nos preocupamos no solo por rescatar animales, sino por ofrecerles
             una vida digna y una segunda oportunidad. Trabajamos con amor,
