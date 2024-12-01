@@ -1,7 +1,7 @@
 import './Hero.css'
 const Hero = () => {
   return (
-    <section className="hero d-flex flex-column align-items-center justify-content-center flex-lg-row">
+    <section className="container-lg hero d-flex flex-column align-items-center justify-content-center flex-lg-row">
 
       <article className="hero-info">
         <div className="info">

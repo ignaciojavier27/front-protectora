@@ -1,7 +1,7 @@
 import "./InfoAboutUs.css";
 const InfoInstagram = () => {
   return (
-    <section className="info-about-us mx-auto">
+    <section className="container-lg info-about-us mx-auto">
       <div className="info-about-us-shadow"></div>
 
       <div className="info-about-us-container d-flex flex-column flex-lg-row">

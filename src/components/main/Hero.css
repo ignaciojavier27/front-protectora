@@ -1,6 +1,6 @@
 .hero {
     height: 90vh;
-    margin-top: 50px;
+    margin-top: 60px;
     width: 100%;
 }
 
@@ -39,7 +39,7 @@
 
 
 .hero-image-container {
-    width: 90%;
+    width: 95%;
     height: 370px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;

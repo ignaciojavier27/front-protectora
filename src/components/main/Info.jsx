@@ -1,7 +1,7 @@
 import './Info.css';
 const Info = () => {
   return (
-    <section className="section-info d-flex flex-column flex-lg-row">
+    <section className="container-lg section-info d-flex flex-column flex-lg-row">
 
       <article className="section-info-cards d-flex flex-column flex-lg-row flex-wrap justify-content-center justify-content-lg-around">
         <div className="info-card d-flex flex-column justify-content-around align-items-center position-relative">
