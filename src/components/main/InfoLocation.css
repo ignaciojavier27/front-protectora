@@ -2,6 +2,11 @@
     margin-top: 15px;
 }
 
+.container-iframe{
+    width: 100%;
+    padding: 0px 15px;
+}
+
 .info-location-iframe{
     margin-top: 10px;
     width: 100%;

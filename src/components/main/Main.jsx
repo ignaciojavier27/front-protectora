@@ -15,10 +15,23 @@ const Main = () => {
       <Separator color1="#f8f0eb" color2="#1a6da9" height="100px" />
       <InfoLocation />
       
-  <br />
-  <br />
-  <br />
-  <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      
     </main>
   );
 };
