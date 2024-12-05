@@ -14,8 +14,8 @@ const Main = () => {
       <Separator color1="#f8f0eb" color2="#1a6da9" height="100px" />
       <InfoAboutUs />
       <Separator color1="#f8f0eb" color2="#1a6da9" height="100px" />
-      <InfoLocation />
       <InfoServices />
+      <InfoLocation />
       <br />
       <br />
       <br />
