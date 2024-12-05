@@ -5,7 +5,7 @@ const InfoServices = () => {
     <section className="container-fluid info-services--section py-5">
       <div className="container-lg">
         <h2 className="text-center">Nuestros Servicios</h2>
-        <div className="info-services-container-cards d-flex flex-column flex-lg-row justify-content-center align-items-center justify-content-lg-around">
+        <div className="info-services-container-cards d-flex flex-column flex-lg-row justify-content-center align-items-center justify-content-lg-between">
           <div
             className="info-services-card"
             style={{ backgroundImage: 'url("/gatos-rescatados.jpg")' }}
