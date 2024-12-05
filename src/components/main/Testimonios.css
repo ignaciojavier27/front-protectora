@@ -1,0 +1,83 @@
+.section-testimonios {
+  margin-top: 55px;
+}
+
+.section-testimonios {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.section-testimonios-datos{
+    margin-top: 20px;
+}
+
+.section-testimonios-datos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-testimonios-datos li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+  text-align: justify;
+}
+
+.section-testimonios-datos li::before {
+  content: "✔";
+  color: var(--primary-color);
+  font-size: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+}
+
+.section-testimonios-resenias {
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.resenia {
+  background: var(--secondary-color);
+  border-bottom: 3px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.resenia p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: var(--terciary-color);
+}
+
+.resenia strong {
+  font-weight: bold;
+  color:black;
+}
+
+.resenia p:nth-child(3) {
+  font-size: 1.2rem;
+  color: #f1c40f;
+}
+
+@media (min-width: 768px) {
+    .resenia{
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .resenia{
+        max-width: 100%;
+    }
+    
+    .section-testimonios-datos{
+        width: 50%;
+    }
+
+    .section-testimonios-resenias{
+        width: 50%;
+    }
+}

@@ -9,6 +9,7 @@ const InfoInstagram = () => {
           src="/info-about-us.png"
           alt="Imagen de la sección"
           className="img-fluid"
+          loading="lazy"
         />
         <p>
           Creemos que <span>cada vida cuenta</span>. Nuestra misión es
